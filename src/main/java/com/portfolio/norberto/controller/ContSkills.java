@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins = "https://appportfolio-e9554.web.app")
+@CrossOrigin(origins = "https://appportfolio-e9554.web.app/")
 public class ContSkills {
     @Autowired
     private ISkillsService skillsServ;
